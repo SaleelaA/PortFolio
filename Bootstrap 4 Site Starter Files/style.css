@@ -52,14 +52,16 @@ html,body{
 }
 .carousel-caption{
   position:absolute;
-  top :50%;
+  top :20%;
   transform: translateY(-50%);
+  
+bottom: 0;
+left: 0;
 }
 
 .carousel-caption h1 {
-margin-top: -10%;
-font-size:500%;
-text-transform :uppercase;
+margin-top: 0;
+font-size:30%;
 text-shadow: 1px 1px 15px #000
 }
 .carousel-caption h3{
@@ -245,6 +247,44 @@ img {
   animation: zoom 20s;
 }
 
+
+.saleela{
+  margin-top: 350px;
+  margin-bottom: 0px;
+  margin-right: 400px;
+  margin-left: 0px;
+  
+}
+.saleela h2{
+  margin-top: 250px;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    margin-left: 0px;
+    font-size: 20px;
+ 
+    color: #3f3f3f;
+  
+}
+.saleela h6{
+    margin-right: 200px;
+    margin-left: 0px;
+    
+  
+}
+.right{
+  margin-top: -10%;
+  margin-right: -50px;
+  margin-left: 400px;
+  color: #3f3f3f;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
