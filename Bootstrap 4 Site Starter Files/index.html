@@ -10,9 +10,10 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-
+		
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 	<div class="container">
@@ -34,6 +35,7 @@
 
 		     	<a href="pdf.html"  class-"nav-link">Resume</a>
 				 </li>
+				 
 				 <li class="nav-item">
 
 				<a href="about.html" class-"nav-link">About</a>
@@ -65,13 +67,16 @@
 </div>
 	</div>
 	 -->
-	<div class="carousel-item active">
+	<div class="">
 	<img src="img/pexels-photo-843226.jpeg">
 	<div class="carousel-caption">
-	<div class="display-4"><font color="black">Hey!!!This Saleela Anandarao  
-	<h5>A Management Information Science graduate
-		with a huge passion on Web Development and Web Designing</h5>
-	</font>
+	<div class="display-4" align="">
+	<div class="saleela"><h2 color="black">Hey!!!This is Saleela</h2> 
+	<h6>A Management Information Science graduate
+		with a huge passion on Web Development and Web Designing</h6>
+	
+	</div>
+	<h2 class="right"><a href="mywork.html">Check out my work!!!!</a></h2>
 	</div>
 		</div>
 		</div>
@@ -122,11 +127,46 @@
 	</div>
 </div>
 
+<h1>Typewriter</h1>
 
 
+
+<h5 id="demo"></h5>
+
+<script>
+var i = 0;
+var txt = 'Lorem ipsum dummy text blabla.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
 
 </body>
+
+
+
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
